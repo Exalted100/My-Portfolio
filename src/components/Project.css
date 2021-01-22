@@ -1,0 +1,60 @@
+.project-container {
+    position: relative;
+    width: 20em;
+    min-width: 15em;
+    height: 27em;
+    padding: 2em;
+    margin: 0 auto;
+    transition: 0.2s ease-in all;
+}
+
+.project-container:hover {
+    box-shadow: 0.3em 0.3em 1em 0.3em rgba(0,0,0,0.3);
+    position: relative;
+    bottom: 10px;
+}
+
+.project-image-container {
+    width: 20em;
+    height: auto;
+    margin: 1.5em auto;
+}
+
+.project-image-container>img {
+    max-width: 100%;
+}
+
+h6 {
+    font-size: 1em;
+    margin: 0 auto;
+    letter-spacing: 0.3em;
+}
+
+.project-info {
+    line-height: 1.5em;
+    text-align: justify;
+    margin-top: 2.5em;
+}
+
+.links-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+.links-container>a {
+    text-decoration: none;
+    color: #ffab24;
+    font-weight: bolder;
+}
+
+.links-container>a:hover {
+    color:  #ffd08f;
+}
+
+.inner-project-div {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-self: flex-start;
+}
