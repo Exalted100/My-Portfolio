@@ -12,14 +12,10 @@ import PortfolioContext from "../contexts/PortfolioContext";
 class App extends Component {
     constructor(props) {
         super(props)
-        if (!matchMedia) {
-            this.state = { mode: true }
+        if (matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            this.state = { mode: false }
         } else {
-            if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-                this.state = { mode: false }
-            } else {
                 this.state = { mode: true }
-            }
         }
     }
 
