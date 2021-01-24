@@ -6,6 +6,7 @@
     animation-name: appear;
     animation-duration: 1.5s;
     background-color: inherit;
+    margin-bottom: 0;
 }
 
 @keyframes appear {
@@ -30,4 +31,5 @@
     text-align: justify;
     font-size: 1.2em;
     margin: 1em auto;
+    margin-bottom: 0;
 }
