@@ -15,7 +15,7 @@ class App extends Component {
         if (!matchMedia) {
             this.state = { mode: true }
         } else {
-            if (window.matchMedia('(prefers-color-scheme: dark)').matches === true) {
+            if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
                 this.state = { mode: false }
             } else {
                 this.state = { mode: true }
