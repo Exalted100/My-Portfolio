@@ -8,6 +8,7 @@ import FusionLandingPage from "../images/Fusion-Landing-Page.png";
 import TodoList from "../images/Todo-list.png";
 import Calculator from "../images/Calculator.png";
 import TipCalculator from "../images/Tip-calculator.png";
+import Dominos from "../images/Dominos.png";
 
 const Projects = () => {
     return (
@@ -22,6 +23,7 @@ const Projects = () => {
                 <Project image={TodoList} project="TO DO LIST" live="https://exalted-todo.netlify.app/" code="https://github.com/Exalted100/Todo-list" projectInfo="Is there any front end web developer that hasn't built a todo list? Is there really? And so, like all the others in this profession, I have joined the hall of hackneyed project creators." />
                 <Project image={Calculator} project="CALCULATOR" live="https://exalted100.github.io/Calculator/" code="https://github.com/Exalted100/Calculator" projectInfo="This is another project from the hall of hackneyed projects. A non-original- a simple calculator. This project was donee to help me understand Javascript and how it related to the DOM." />
                 <Project image={TipCalculator} project="TIP CALCULATOR" live="https://exalted100.github.io/Tip-Calculator/" code="https://github.com/Exalted100/Tip-Calculator" projectInfo="This tip calculator will help you decide how much to tip your waiters and other service providers. The variables it takes include your satisfaction, total bill, and persons to pay." />
+                <Project image={Dominos} project="DOMINOS WEBSITE" live="https://exalted-dominos.netlify.app/" code="https://github.com/Exalted100/Dominos" projectInfo="This is the product page for a dominos website. It was created from a UI design made by a friend. I used React and React Context to create it. I also enabled the search feature." />
             </div>
         </div>
     )
