@@ -2,7 +2,6 @@ import React from "react";
 import Project from "./Project";
 import "./Projects.css";
 import StarWars from "../images/Star-wars.png";
-import VueLandingPage from "../images/Vue-Landing-Page.png";
 import DrumKit from "../images/Drum-kit.png";
 import FusionLandingPage from "../images/Fusion-Landing-Page.png";
 import TodoList from "../images/Todo-list.png";

@@ -47,6 +47,7 @@ class NavBar extends Component {
                                 <li style={{marginTop: "2em"}} ><Link to="/about" className="link li-small-screen" onClick={toggle} >About</Link></li>
                                 <li style={{marginTop: "2em"}} onClick={toggle}><Link to="/projects" className="li-small-screen link" >Projects</Link></li>
                                 <li style={{marginTop: "2em"}} onClick={toggle}><Link to="/contact" className="li-small-screen link" >Contact</Link></li>
+                                <li style={{marginTop: "2em"}} onClick={toggle}><Link to="/blog" className="li-small-screen link" >Blog</Link></li>
                             </ul>
                         </div>
                     } else {
@@ -58,6 +59,7 @@ class NavBar extends Component {
                                 <li style={{marginTop: "2em"}} ><Link to="/about" className="link li-small-screen" onClick={toggle} >About</Link></li>
                                 <li style={{marginTop: "2em"}} onClick={toggle}><Link to="/projects" className="li-small-screen link" >Projects</Link></li>
                                 <li style={{marginTop: "2em"}} onClick={toggle}><Link to="/contact" className="li-small-screen link" >Contact</Link></li>
+                                <li style={{marginTop: "2em"}} onClick={toggle}><Link to="/blog" className="li-small-screen link" >Blog</Link></li>
                             </ul>
                         </div>
                     }
@@ -76,6 +78,7 @@ class NavBar extends Component {
                                     <li><Link to="/about" className="link li-big-screen" >About</Link></li>
                                     <li><Link to="/projects" className="link li-big-screen" >Projects</Link></li>
                                     <li><Link to="/contact" className="link li-big-screen" >Contact</Link></li>
+                                    <li><Link to="/blog" className="link li-big-screen" >Blog</Link></li>
                                 </ul>
                             )} else {
                                 return (
@@ -85,6 +88,7 @@ class NavBar extends Component {
                                         <li><Link to="/about" className="link li-big-screen" >About</Link></li>
                                         <li><Link to="/projects" className="link li-big-screen" >Projects</Link></li>
                                         <li><Link to="/contact" className="link li-big-screen" >Contact</Link></li>
+                                        <li><Link to="/blog" className="link li-big-screen" >Blog</Link></li>
                                     </ul>
                                 )
                             }

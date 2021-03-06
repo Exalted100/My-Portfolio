@@ -12,8 +12,8 @@ const Project = (props) => {
                 <div>
                     <p className="project-info" >{props.projectInfo}</p>
                     <div className="links-container">
-                        <a className="live-site" href={props.live} target="_blank" rel="noopener" >Live Site</a>
-                        <a className="code-repo" href={props.code} target="_blank" rel="noopener" >Code Repo</a>
+                        <a className="live-site" href={props.live} target="_blank" rel="noreferrer" >Live Site</a>
+                        <a className="code-repo" href={props.code} target="_blank" rel="noreferrer" >Code Repo</a>
                     </div>
                 </div>
             </div>

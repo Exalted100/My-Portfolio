@@ -6,6 +6,7 @@ import About from "./About";
 import Contact from "./Contact";
 import Projects from "./Projects";
 import Footer from "./Footer";
+import Blog from "./Blog";
 import { BrowserRouter, Route } from "react-router-dom";
 import PortfolioContext from "../contexts/PortfolioContext";
 
@@ -51,6 +52,7 @@ class App extends Component {
                             <Route path="/about" component={About} />
                             <Route path="/contact" component={Contact} />
                             <Route path="/projects" component={Projects} />
+                            <Route path="/blog" component={Blog} />
                             <Footer />
                         </PortfolioContext.Provider>
                     </BrowserRouter>

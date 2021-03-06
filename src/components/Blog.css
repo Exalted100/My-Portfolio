@@ -1,0 +1,47 @@
+.blog-container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 10em;
+    margin-bottom: 2em;
+    animation-name: appear;
+    animation-duration: 1.5s;
+    background-color: inherit;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0.2;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.blog-h2 {
+    color: #ffab24;
+    font-size: 2.5em;
+    margin-top: 0;
+    text-align: center;
+}
+
+.blog-intro {
+    line-height: 2em;
+    width: 70%;
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+.blog-links {
+    font-style: italic;
+    color: inherit;
+}
+
+.blogpost-container {
+    background-color: rgba(209, 209, 209, 0.3);
+    border-radius: 10px;
+}
+
+.blogpost-container:hover {
+    box-shadow: 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.3);
+}
