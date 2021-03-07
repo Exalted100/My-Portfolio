@@ -21,12 +21,12 @@ const Blog = () => {
             <div>{!blogPosts.data ? "Blog posts are not available at this time." : blogPosts.data.map(post => {
                 return (
                     <div key={post.id} className="blogpost-container">
-                        <h4>{post.title}</h4>
-                        <p>{post.description}</p>
-                        <p>{post.tag_list.map(tag => <span key={tag}><p>{tag}</p></span>)}</p>
+                        <h4 className="post-title">{post.title}</h4>
+                        <p className="snippet">{post.description}</p>
+                        {post.tag_list.map(tag => <p className="tags" key={tag}>#{tag}</p>)}
                         <div>
-                            <p>{post.readable_publish_date}</p>
-                            <p><a href={post.url}>Read now</a></p>
+                            <p className="post-date">{post.readable_publish_date}</p>
+                            <p><a className="blog-links" href={post.url}>Read now</a></p>
                         </div>
                     </div>
                 )
