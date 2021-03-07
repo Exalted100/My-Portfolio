@@ -1,11 +1,15 @@
 .blog-container {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     padding-top: 10em;
-    margin-bottom: 2em;
     animation-name: appear;
     animation-duration: 1.5s;
     background-color: inherit;
+}
+
+.minor-blog-container {
+    width: 80%;
+    margin: 0 auto;
 }
 
 @keyframes appear {
@@ -40,10 +44,6 @@
     background-color: rgba(209, 209, 209, 0.3);
     border-radius: 30px;
     padding: 1em 2em;
-}
-
-.blogpost-container:hover {
-    box-shadow: 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.3);
 }
 
 .post-title {
