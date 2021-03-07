@@ -7,9 +7,8 @@ const Blog = () => {
 
     useEffect(() => {
         const getBlogPosts = async () => {
-            const posts = await axios.get("https://dev.to/api/articles?username=exalted100")
+            const posts = await axios.get("https://dev.to/api/articles?username=exalted100&per_page=10")
             setBlogPosts(posts)
-            console.log(posts)
         }
         getBlogPosts()
       }, []);
@@ -18,7 +17,7 @@ const Blog = () => {
         <div className="blog-container">
             <div className="minor-blog-container">
                 <h2 className="blog-h2">Blog</h2>
-                <p className="blog-intro">I write on <a className="blog-links" href="https://exalted100.medium.com/">Medium</a> and <a className="blog-links" href="https://dev.to/exalted100">Dev.to</a> about the things I learn.</p>
+                <p className="blog-intro">I write on <a className="blog-links" href="https://exalted100.medium.com/" target="_blank" rel="noreferrer">Medium</a> and <a className="blog-links" href="https://dev.to/exalted100" target="_blank" rel="noreferrer">Dev.to</a> about the things I learn.</p>
                 <div>{!blogPosts.data ? "Blog posts are not available at this time." : blogPosts.data.map(post => {
                     return (
                         <div key={post.id} className="blogpost-container">
@@ -27,7 +26,7 @@ const Blog = () => {
                             {post.tag_list.map(tag => <p className="tags" key={tag}>#{tag}</p>)}
                             <div>
                                 <p className="post-date">{post.readable_publish_date}</p>
-                                <p><a className="blog-links" href={post.url}>Read now</a></p>
+                                <p><a className="blog-links" href={post.url} target="_blank" rel="noreferrer">Read now</a></p>
                             </div>
                         </div>
                     )
