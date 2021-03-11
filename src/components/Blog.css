@@ -62,7 +62,8 @@
 
 .tags {
     display: inline-block;
-    margin-right: 1em;
+    margin: 0.5em 0;
+    margin-right: 0.5em;
     background-color: rgba(209, 209, 209, 0.3);
     border-radius: 30px;
     padding: 0.3em;
