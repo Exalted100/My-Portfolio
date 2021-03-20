@@ -26,22 +26,22 @@ class App extends Component {
         }
 
         const display = !this.state.mode ? { 
-            backgroundColor: "yellow",
+            //backgroundColor: "yellow",
             height: "3em", 
             width: "3em",  
             borderRadius: "50%",
             cursor: "pointer",
-            transition: "1s ease-in background-color",
+            transition: "0.2s ease-in background-color"
           } : {
-            backgroundColor: "gray",
+            //backgroundColor: "gray",
             height: "3em", 
             width: "3em",  
             borderRadius: "50%",
             cursor: "pointer",
-            transition: "1s ease-in background-color",
+            transition: "0.2s ease-in background-color"
           }
 
-          const divStyle = !this.state.mode ? {color: "white", backgroundColor: "#262626", height: "100vh", transition: "1s ease-in"} : {color: "black", backgroundColor: "#f0f0f0", height: "100vh", transition: "1s ease-in"}
+          const divStyle = !this.state.mode ? {color: "white", backgroundColor: "#262626", height: "100vh", transition: "0.2s ease-in"} : {color: "black", backgroundColor: "#f0f0f0", height: "100vh", transition: "0.2s ease-in"}
 
         return (
                 <div style={divStyle}>

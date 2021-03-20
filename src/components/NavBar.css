@@ -113,3 +113,8 @@
         margin: 2em 0;
     }
 }
+
+.mode-icon {
+    width: 100%;
+    height: auto;
+}

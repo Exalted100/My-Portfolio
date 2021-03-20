@@ -17,8 +17,6 @@ const Home = () => {
                 </div>
             </div>
             <p className="explore">EXPLORE!</p>
-            <p className="text" >Use the navigation bar.</p>
-            <p className="text">P.S. You can switch between light and dark mode by clicking the circle on the top left of your screen.</p>
         </div>
     )
 }
