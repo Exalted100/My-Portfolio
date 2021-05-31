@@ -8,9 +8,8 @@ import TodoList from "../images/Todo-list.png";
 import Calculator from "../images/Calculator.png";
 import TipCalculator from "../images/Tip-calculator.png";
 import WordProcessor from "../images/word-processor.png";
-import ColourGame from "../images/colour-game.png";
 import Dominos from "../images/Dominos.png";
-import GithubQuery from "../images/github-query-app.ng";
+import GithubQuery from "../images/github-query-app.png";
 
 const Projects = () => {
     return (
