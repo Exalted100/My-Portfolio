@@ -48,11 +48,13 @@ class App extends Component {
                     <BrowserRouter>
                         <PortfolioContext.Provider value={this.state.mode}>
                             <NavBar onClick={onModeClick} display={display} />
-                            <Route path="/" exact component={Home} />
-                            <Route path="/about" component={About} />
-                            <Route path="/contact" component={Contact} />
-                            <Route path="/projects" component={Projects} />
-                            <Route path="/blog" component={Blog} />
+                            <div aria-live="polite">
+                                <Route path="/" exact component={Home} />
+                                <Route path="/about" component={About} />
+                                <Route path="/contact" component={Contact} />
+                                <Route path="/projects" component={Projects} />
+                                <Route path="/blog" component={Blog} />
+                            </div>
                             <Footer />
                         </PortfolioContext.Provider>
                     </BrowserRouter>
