@@ -7,7 +7,7 @@ const Blog = () => {
 
     useEffect(() => {
         const getBlogPosts = async () => {
-            const posts = await axios.get("https://dev.to/api/articles?username=exalted100&per_page=10")
+            const posts = await axios.get("https://dev.to/api/articles?username=exalted100")
             setBlogPosts(posts)
             console.log(posts)
         }
