@@ -13,6 +13,8 @@ const Blog = () => {
         getBlogPosts()
       }, []);
 
+      console.log(blogPosts)
+
     return (
         <div className="blog-container">
             <div className="minor-blog-container">
