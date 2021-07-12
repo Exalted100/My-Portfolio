@@ -41,7 +41,7 @@ class App extends Component {
             transition: "0.2s ease-in background-color"
           }
 
-          const divStyle = !this.state.mode ? {color: "white", backgroundColor: "#262626", height: "100vh", transition: "0.2s ease-in"} : {color: "black", backgroundColor: "#f0f0f0", height: "100vh", transition: "0.2s ease-in"}
+          const divStyle = !this.state.mode ? {color: "white", backgroundColor: "#262626", minHeight: "100vh", transition: "0.2s ease-in"} : {color: "black", backgroundColor: "#f0f0f0", minHeight: "100vh", transition: "0.2s ease-in"}
 
         return (
                 <div style={divStyle}>
