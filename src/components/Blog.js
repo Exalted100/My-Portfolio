@@ -9,6 +9,7 @@ const Blog = () => {
         const getBlogPosts = async () => {
             const posts = await axios.get("https://dev.to/api/articles?username=exalted100&per_page=10")
             setBlogPosts(posts)
+            console.log(posts)
         }
         getBlogPosts()
       }, []);
