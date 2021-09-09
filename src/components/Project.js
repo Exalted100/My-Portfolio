@@ -7,7 +7,7 @@ const Project = (props) => {
             <h6>{props.project}</h6>
             <div className="inner-project-div">
                 <div className="project-image-container">
-                    <img src={props.image} alt="s" />
+                    <img width="100%" height="100%" src={props.image} alt="project" />
                 </div>
                 <div>
                     <p className="project-info" >{props.projectInfo}</p>

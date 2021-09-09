@@ -5,7 +5,7 @@ import orange from "../images/orange.jpg";
 const Contact = () => {
     return (
         <div className="contact-container">
-            <div className="contact-image-container"><img src={orange} alt="orange" /></div>
+            <div className="contact-image-container"><img width="100%" height="100%" src={orange} alt="orange" /></div>
             <div className="contact-info">
                 <h2 className="contact-h2">Contact</h2>
                 <p className="email">E-mail</p>

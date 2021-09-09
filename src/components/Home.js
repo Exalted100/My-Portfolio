@@ -7,7 +7,7 @@ const Home = () => {
         <div className="home-parent">
             <div className="home-container">
                 <div className="image-container">
-                    <img src={orange} alt="orange" />
+                    <img width="100%" height="100%" src={orange} alt="orange" />
                 </div>
                 <div className="body-container">
                     <p className="stack">HTML, CSS, JS, React</p>
