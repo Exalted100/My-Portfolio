@@ -31,13 +31,13 @@ class NavBar extends Component {
                 {(value) => {
                     if (!value) {
                         return <div className="menu-closed" style={{backgroundColor: "black", transition: "0.2s ease-in background-color"}} >
-                            <div style={this.props.display} tabIndex="0" onKeyPress={enterChange} onClick={change}><img className="mode-icon" src={sun} alt="light mode toggle" /></div>
+                            <div style={this.props.display} tabIndex="0" onKeyPress={enterChange} onClick={change}><img height="25px" width="25px" className="mode-icon" src={sun} alt="light mode toggle" /></div>
                             <p className="name"><Link to="/" className="link-name" >Fawaz Haroun</Link></p>
                             <button className="open-button" onClick={toggle} style={{backgroundColor: "white"}}>MENU</button>
                         </div>
                     } else {
                         return <div className="menu-closed" style={{backgroundColor: "white", transition: "0.2s ease-in background-color"}} >
-                            <div style={this.props.display} tabIndex="0" onKeyPress={enterChange} onClick={change}><img className="mode-icon" src={moon} alt="dark mode toggle" /></div>
+                            <div style={this.props.display} tabIndex="0" onKeyPress={enterChange} onClick={change}><img height="25px" width="25px" className="mode-icon" src={moon} alt="dark mode toggle" /></div>
                             <p className="name"><Link to="/" className="link-name" >Fawaz Haroun</Link></p>
                             <button className="open-button" onClick={toggle} style={{backgroundColor: "black", color: "white"}}>MENU</button>
                         </div>
@@ -81,7 +81,7 @@ class NavBar extends Component {
                         {(value) => {
                             if (!value)  {return (
                                 <ul className="ul-big-screen" style={{backgroundColor: "black", transition: "0.2s ease-in background-color"}}>
-                                    <div style={this.props.display} tabIndex="0" onKeyPress={enterChange} onClick={change}><img className="mode-icon" src={sun} alt="light mode toggle" /></div>
+                                    <div style={this.props.display} tabIndex="0" onKeyPress={enterChange} onClick={change}><img height="25px" width="25px" className="mode-icon" src={sun} alt="light mode toggle" /></div>
                                     <li className="name li-big-screen"><Link to="/" className="link-name" >Fawaz Haroun</Link></li>
                                     <li><Link to="/about" className="link li-big-screen" >About</Link></li>
                                     <li><Link to="/projects" className="link li-big-screen" >Projects</Link></li>
@@ -91,7 +91,7 @@ class NavBar extends Component {
                             )} else {
                                 return (
                                     <ul className="ul-big-screen" style={{backgroundColor: "white", transition: "0.2s ease-in background-color"}}>
-                                        <div style={this.props.display} tabIndex="0" onKeyPress={enterChange} onClick={change}><img className="mode-icon" src={moon} alt="dark mode toggle" /></div>
+                                        <div style={this.props.display} tabIndex="0" onKeyPress={enterChange} onClick={change}><img height="25px" width="25px" className="mode-icon" src={moon} alt="dark mode toggle" /></div>
                                         <li className="name li-big-screen"><Link to="/" className="link-name" >Fawaz Haroun</Link></li>
                                         <li><Link to="/about" className="link li-big-screen" >About</Link></li>
                                         <li><Link to="/projects" className="link li-big-screen" >Projects</Link></li>
